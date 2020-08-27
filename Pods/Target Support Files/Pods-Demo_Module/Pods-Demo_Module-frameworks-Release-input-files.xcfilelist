@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-Demo_Module/Pods-Demo_Module-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/Category_Home/Category_Home.framework
+${BUILT_PRODUCTS_DIR}/Category_Mine/Category_Mine.framework
+${BUILT_PRODUCTS_DIR}/MTHome/MTHome.framework
+${BUILT_PRODUCTS_DIR}/MTMine/MTMine.framework
+${BUILT_PRODUCTS_DIR}/MTT/MTT.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

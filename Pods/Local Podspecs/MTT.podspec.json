@@ -1,0 +1,27 @@
+{
+  "name": "MTT",
+  "version": "0.1.0",
+  "summary": "A short description of MTT.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/33cun/MTT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "33cun": "xiaoxin@evrazlabs.email"
+  },
+  "source": {
+    "git": "https://github.com/33cun/MTT.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MTT/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

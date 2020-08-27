@@ -1,0 +1,6 @@
+framework module MTT {
+  umbrella header "MTT-umbrella.h"
+
+  export *
+  module * { export * }
+}

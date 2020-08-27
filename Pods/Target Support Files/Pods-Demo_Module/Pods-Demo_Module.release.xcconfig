@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/Category_Home" "${PODS_CONFIGURATION_BUILD_DIR}/Category_Mine" "${PODS_CONFIGURATION_BUILD_DIR}/MTHome" "${PODS_CONFIGURATION_BUILD_DIR}/MTMine" "${PODS_CONFIGURATION_BUILD_DIR}/MTT" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Category_Home/Category_Home.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Category_Mine/Category_Mine.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MTHome/MTHome.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MTMine/MTMine.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MTT/MTT.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "CTMediator" -framework "Category_Home" -framework "Category_Mine" -framework "CoreGraphics" -framework "Foundation" -framework "MTHome" -framework "MTMine" -framework "MTT" -framework "Masonry" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

@@ -1,0 +1,27 @@
+{
+  "name": "Category_Mine",
+  "version": "0.1.3",
+  "summary": "A short description of Category_Mine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MTModule/Category_Mine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "33cun": "xiaoxin@evrazlabs.email"
+  },
+  "source": {
+    "git": "https://github.com/MTModule/Category_Mine.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Category_Mine/Classes/**/*.{h,m}",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "MTHome",
+  "version": "0.1.5",
+  "summary": "A short description of MTHome.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MTModule/MTHome.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "33cun": "xiaoxin@evrazlabs.email"
+  },
+  "source": {
+    "git": "https://github.com/MTModule/MTHome.git",
+    "tag": "0.1.5"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MTHome/Classes/**/Target_Home.{h,m}",
+  "public_header_files": "MTMine/Classes/Target_Home.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "CTMediator": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "UI",
+      "source_files": "MTHome/Classes/UI/**/*"
+    },
+    {
+      "name": "Data",
+      "source_files": "MTHome/Classes/Data/**/*"
+    },
+    {
+      "name": "Service",
+      "source_files": "MTHome/Classes/Service/**/*"
+    }
+  ]
+}

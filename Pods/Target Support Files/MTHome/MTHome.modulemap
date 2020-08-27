@@ -1,0 +1,6 @@
+framework module MTHome {
+  umbrella header "MTHome-umbrella.h"
+
+  export *
+  module * { export * }
+}

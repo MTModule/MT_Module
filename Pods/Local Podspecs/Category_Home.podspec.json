@@ -1,0 +1,27 @@
+{
+  "name": "Category_Home",
+  "version": "0.1.2",
+  "summary": "A short description of Category_Home.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MTModule/Category_Home",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "33cun": "xiaoxin@evrazlabs.email"
+  },
+  "source": {
+    "git": "https://github.com/MTModule/Category_Home.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Category_Home/Classes/**/*.{h,m}",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

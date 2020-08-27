@@ -1,0 +1,122 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Category_Home (0.1.2):
+    - CTMediator
+  - Category_Mine (0.1.3):
+    - CTMediator
+  - CTMediator (44)
+  - Masonry (1.1.0)
+  - MTHome (0.1.5):
+    - CTMediator
+    - Masonry
+    - MTHome/Data (= 0.1.5)
+    - MTHome/Service (= 0.1.5)
+    - MTHome/UI (= 0.1.5)
+  - MTHome/Data (0.1.5):
+    - CTMediator
+    - Masonry
+  - MTHome/Service (0.1.5):
+    - CTMediator
+    - Masonry
+  - MTHome/UI (0.1.5):
+    - CTMediator
+    - Masonry
+  - MTMine (0.1.9):
+    - AFNetworking
+    - CTMediator
+    - Masonry
+    - MTMine/Data (= 0.1.9)
+    - MTMine/Service (= 0.1.9)
+    - MTMine/UI (= 0.1.9)
+  - MTMine/Data (0.1.9):
+    - AFNetworking
+    - CTMediator
+    - Masonry
+  - MTMine/Service (0.1.9):
+    - AFNetworking
+    - CTMediator
+    - Masonry
+  - MTMine/UI (0.1.9):
+    - AFNetworking
+    - CTMediator
+    - Masonry
+  - MTT (0.1.0):
+    - AFNetworking (~> 2.3)
+
+DEPENDENCIES:
+  - Category_Home (from `https://github.com/MTModule/Category_Home.git`)
+  - Category_Mine (from `https://github.com/MTModule/Category_Mine.git`)
+  - CTMediator
+  - MTHome (from `https://github.com/MTModule/MTHome.git`)
+  - MTMine (from `https://github.com/MTModule/MTMine.git`)
+  - MTT (from `https://github.com/33cun/MTT.git`, tag `0.0.1`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CTMediator
+    - Masonry
+
+EXTERNAL SOURCES:
+  Category_Home:
+    :git: https://github.com/MTModule/Category_Home.git
+  Category_Mine:
+    :git: https://github.com/MTModule/Category_Mine.git
+  MTHome:
+    :git: https://github.com/MTModule/MTHome.git
+  MTMine:
+    :git: https://github.com/MTModule/MTMine.git
+  MTT:
+    :git: https://github.com/33cun/MTT.git
+    :tag: 0.0.1
+
+CHECKOUT OPTIONS:
+  Category_Home:
+    :commit: 8b0a20984544b82f8bbd6a7dfa8559bf661411c0
+    :git: https://github.com/MTModule/Category_Home.git
+  Category_Mine:
+    :commit: 72398862ea40df8feb3fc37ba15b73a6af66ae86
+    :git: https://github.com/MTModule/Category_Mine.git
+  MTHome:
+    :commit: 6694f10e55215d9c40e34feb86b50874a1035e80
+    :git: https://github.com/MTModule/MTHome.git
+  MTMine:
+    :commit: 8da965f98f2c75dacd24fd75edae72f29aa66f76
+    :git: https://github.com/MTModule/MTMine.git
+  MTT:
+    :git: https://github.com/33cun/MTT.git
+    :tag: 0.0.1
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Category_Home: 3e088c733cf5c5e63221a71327aa5584bf5db83e
+  Category_Mine: ad7bf780f5378de4d7d2d590a806d6855b2b62d0
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MTHome: a0d7207400ce954e92989acf82ab862b4b8275a7
+  MTMine: 0824dcc5326aa51bf476e9abac23316dcc5d1245
+  MTT: d4e2b74b319108c5b69ae09e371badd6002620ce
+
+PODFILE CHECKSUM: 0c5205ed67699c1a50b6526933a0ab8b6347a041
+
+COCOAPODS: 1.9.3
